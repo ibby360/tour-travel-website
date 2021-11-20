@@ -1,0 +1,51 @@
+@import '../scss/variables';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+
+.separator {
+    border-bottom: solid #000 2px;
+    background-color: #DADADA;
+	height: 3px;
+    width: 6%;
+	margin: 0.5em 0px 1.5em;
+}
+
+.btn {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #fff;
+}
+
+.destination {
+    border-radius: 5%;
+}
+
+.text-bottom-left {
+    top: 17.063rem;
+    background-color: #fff;
+    padding-left: 0.20rem;
+    padding-right: 1.5rem;
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    border-radius: 0px 10px 0px 0px;
+}
+
+.margin--top {
+    margin-top: 9rem;
+}

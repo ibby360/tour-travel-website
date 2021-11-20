@@ -1,0 +1,33 @@
+{
+  "name": "tour-and-travel-website",
+  "version": "1.0.0",
+  "description": "Tour and travel website landing page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibby360/tour-and-travel-website.git"
+  },
+  "keywords": [
+    "landing-page",
+    "website",
+    "bootstrap"
+  ],
+  "author": "ibby360",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibby360/tour-and-travel-website/issues"
+  },
+  "homepage": "https://github.com/ibby360/tour-and-travel-website#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.43.4"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
